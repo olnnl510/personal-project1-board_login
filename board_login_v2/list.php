@@ -17,7 +17,7 @@ $page = 1;
 if (isset($_GET["page"])) {
     $page = intval($_GET["page"]);
 }
-    // print "<div>page : $page</div>"; // 잘받아졌는지 확인
+// print "<div>page : $page</div>"; // 잘받아졌는지 확인
 
 /* 검색 기능 */
 $search_txt = "";
@@ -48,7 +48,12 @@ $list = sel_board_list($param);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/common.css">
+
     <title>리스트</title>
 </head>
 
