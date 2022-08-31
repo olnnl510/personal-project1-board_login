@@ -1,0 +1,20 @@
+CREATE TABLE t_user(
+	i_user INT unsigned AUTO_INCREMENT PRIMARY KEY,
+	uid VARCHAR(20) UNIQUE NOT NULL,  
+	upw VARCHAR(30) NOT NULL, 
+	nm VARCHAR(5) NOT NULL,
+	gender INT unsigned not null CHECK(gender IN (0, 1)),
+	created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+	updated_at DATETIME DEFAULT current_timestamp
+);
+
+CREATE TABLE t_board(
+	i_board INT UNSIGNED AUTO_INCREMENT,
+	PRIMARY KEY(i_board),
+	title VARCHAR(100) NOT NULL,
+	ctnt VARCHAR(2000) NOT NULL,
+	i_user INT UNSIGNED NOT NULL,
+	created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+	updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,	
+	FOREIGN KEY (i_user) REFERENCES t_user(i_user)
+);

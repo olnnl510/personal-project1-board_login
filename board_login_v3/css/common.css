@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*
+e1ecb8
+
+bee2e8
+
+d3eadd
+
+9ec3e8
+
+ffffff
+
+*/

@@ -1,0 +1,59 @@
+body {
+    background-color: #9ec3e8;
+    margin-top: 200px;
+
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #e1ecb8;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: #bee2e8;
+}
+
+td {
+    width: 30vw;
+
+    background-color: #d3eadd;
+
+}
+
+.ctnt {
+    height: 30vh;
+}
+
+
+/*
+e1ecb8
+
+bee2e8
+
+d3eadd
+
+9ec3e8
+
+ffffff
+
+*/

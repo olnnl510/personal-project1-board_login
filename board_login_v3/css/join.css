@@ -1,0 +1,29 @@
+body {
+    background-color: #9ec3e8;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+h1 {
+    background-color: #e1ecb8;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+
+input {
+    margin: 15px;
+    padding: 5px;
+}
